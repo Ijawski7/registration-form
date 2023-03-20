@@ -1,0 +1,14 @@
+.section1{
+    background-color: black;
+}
+form{
+    background-color: rgb(210, 191, 191);
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    padding: 10px;
+    
+}
+input{
+margin: 10px;
+}

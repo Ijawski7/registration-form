@@ -6,29 +6,29 @@
             <meta charset="UTF-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Document</title>
+            <title>Registration form</title>
+            <link rel="stylesheet" href="style.css"/> 
         </head>
-        <body>
+        <body> 
+         <form action="finish.html">
             <h1>Fill in your biodata</h1>
-            <form action="finish.html">
-                <fieldset>
-                    <legend>biodata</legend>
+            
+           <fieldset ><legend>BIODATA</legend>
                     <label for="fullname">Fullname</label>
-                    <input type="text" name="fullname" id="fullname">
+                    <input type="text" name="fullname" id="fullname"><br>
                     <label for="email">Email</label>
-                    <input type="email" name="email" id="email">
-                    <label for="Phonenumber">Phonenumber</label>
-                    <input type="number" name="Phonenumber" id="Phonenumber">
-                    <label for="Male">Male</label>
-                    <input type="radio" name="sex" id="male" value="male">
-                    <label for="Female">Female</label>
-                    <input type="radio" name="sex" id="female" value="female">
-                    <label for="Password">Password</label>
-                    <input type="password" name="Password" id="Password">
-                    <input type="submit" value="submit">
-                </fieldset>
-            </form>
+                    <input type="email" name="email" id="email"><br>
+                    <label for="Phonenumber">phonenumber</label>
+                    <input type="number" name="Phonenumber" id="Phonenumber"><br>
+                    <label for="Gender">Gender
+                        <input type="radio" name="Gender" id="male" value="male"> Male
+                        <input type="radio" name="Gender" id="female" value="female"> Female </label><br>
+                        <label for="Password">Password</label>
+                        <input type="password" name="Password" id="Password">
+                        <input type="submit" value="submit">
+                    </fieldset>
+        
+    </form>
+            
         </body>
         </html>
-    </head>
-</html>
